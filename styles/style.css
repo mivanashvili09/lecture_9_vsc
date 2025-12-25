@@ -1,0 +1,77 @@
+header {
+  padding: 24px 0;
+}
+
+/* .container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+} */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+a {
+  color: #636060;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.active {
+	color: #4E6FAE;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00bf63;
+    transform: scale(1.1);
+}
+
+nav ul li a.active {
+    color: #00bf63;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px; /* ფიქსირებული სიმაღლე უფრო სუფთაა */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
