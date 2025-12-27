@@ -178,11 +178,11 @@ main {
 
 .unique-card {
   background: #ffffff;
-  border-radius: 10px; 
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* ძალიან ნაზი ჩრდილი */
   transition: all 0.3s ease;
-  height: 100%; 
+  height: 100%;
   display: flex;
   flex-direction: column;
   border: 1px solid #f1f1f1;
@@ -195,7 +195,7 @@ main {
 
 .card-img-wrapper {
   width: 100%;
-  height: 200px; 
+  height: 200px;
   overflow: hidden;
   border-radius: 0;
 }
@@ -212,7 +212,7 @@ main {
   padding: 30px;
   display: flex;
   flex-direction: column;
-  flex-grow: 1; 
+  flex-grow: 1;
 }
 
 .card-body h3 {
@@ -233,7 +233,7 @@ main {
 }
 
 .read-more {
-  color: #2c3e50; 
+  color: #2c3e50;
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
@@ -255,18 +255,18 @@ main {
 .social-icons {
   margin-top: 15px;
   display: flex;
-  gap: 15px; 
+  gap: 15px;
 }
 
 .social-icons a {
-  color: #00d2ff; 
-  font-size: 22px; 
+  color: #00d2ff;
+  font-size: 22px;
   transition: 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: white; 
-  transform: scale(1.1); 
+  color: white;
+  transform: scale(1.1);
 }
 
 .online-info h2 {
@@ -289,7 +289,7 @@ main {
 }
 
 .social-links-large a:hover {
-  color: #00acee;
+  color: #00bf63;
   transform: scale(1.2);
 }
 
@@ -310,5 +310,57 @@ p {
 }
 
 strong {
+  font-family: "BPG Ingiri", sans-serif;
+}
+
+.breadcrumb {
+  background: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.breadcrumb-item a {
+  color: #00acee;
+  text-decoration: none;
+}
+
+.course-description {
+  line-height: 1.8;
+  color: #444;
+  font-family: "BPG Ingiri", sans-serif;
+}
+
+.course-description h3,
+.course-description h4 {
+  color: #2c3e50;
+  font-family: "BPG Ingiri", sans-serif;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.teacher-card img {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.teacher-card h4 {
+  font-family: "BPG Ingiri", sans-serif;
+  margin-bottom: 5px;
+}
+
+.btn-info {
+  background-color: #00bf63;
+  border: none;
+  padding: 12px;
+  color: white;
+  border-radius: 20px;
+}
+
+.btn-info:hover {
+  background-color: #00bf63cd;
+  color: white;
+  border-radius: 20px;
+}
+
+h4 {
   font-family: "BPG Ingiri", sans-serif;
 }
