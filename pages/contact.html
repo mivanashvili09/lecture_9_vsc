@@ -26,8 +26,11 @@
   <body>
     <header>
       <div class="container flex-container">
-        <a href="../index.html">
-          <img src="../images/logo.png" alt="logo" />
+        <a
+          href="https://www.tbcbank.ge/web/ka/web/guest/education"
+          target="_blank"
+        >
+          <img src="../images/tbc.png" alt="TBC Education Logo" />
         </a>
         <nav>
           <ul>
@@ -47,88 +50,58 @@
         </nav>
       </div>
     </header>
-    <main class="container my-5 pt-5">
-      <h1 class="page-title text-center mb-5">კონტაქტი</h1>
+    <main>
+      <section class="contact-section">
+        <div class="container contact-wrapper">
+          <div class="contact-info">
+            <h2 class="section-title">დაგვიკავშირდით</h2>
+            <p class="section-subtitle">
+              გაქვთ კითხვები? 
+              <br>
+              <br>
+              შეავსეთ ფორმა და ჩვენი გუნდი მალე დაგიკავშირდებათ.
+            </p>
 
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="contact-card online-info shadow-sm p-5">
-            <div class="text-center mb-5">
-              <h2 class="mb-3">ონლაინ სწავლება ნებისმიერი ადგილიდან</h2>
-              <br />
-              <p class="text-muted">
-                ჩვენი სასწავლო ცენტრი სრულად დისტანციურ რეჟიმში მუშაობს, რაც
-                გაძლევთ მაქსიმალურ კომფორტს და მოქნილობას.
-              </p>
-              <br />
-              <br />
-            </div>
-
-            <div class="row text-center">
-              <div class="col-md-4 mb-4">
-                <i class="fas fa-video fa-3x mb-3 text-info"></i>
-                <br />
-                <br />
-                <!-- <h5>პლატფორმა</h5> -->
-                <p class="small text-muted">Zoom / Google Meet</p>
-              </div>
-              <div class="col-md-4 mb-4">
-                <i class="fas fa-calendar-alt fa-3x mb-3 text-info"></i>
-                <br />
-                <br />
-                <!-- <h5>გრაფიკი</h5> -->
-                <p class="small text-muted">
-                  მაქსიმალურად თქვენზე მორგებული დრო
-                </p>
-              </div>
-              <div class="col-md-4 mb-4">
-                <i class="fas fa-user-graduate fa-3x mb-3 text-info"></i>
-                <br />
-                <br />
-                <!-- <h5>მიდგომა</h5> -->
-                <p class="small text-muted">
-                  ჯგუფური სწავლება (ჯგუფში 3-5 მოსწავლე)
-                </p>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <p>თბილისი, საქართველო</p>
               </div>
             </div>
 
-            <hr class="my-5" />
-
-            <div class="row text-center justify-content-center">
-              <br />
-              <br />
-              <div class="col-md-5 mb-3">
-                <div class="p-3 border rounded-pill">
-                  <i class="fas fa-phone-alt me-2 text-info"></i>
-                  <strong>(+995) 551 90 40 20</strong>
-                </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <p>(+995) 551 90 40 20</p>
               </div>
-              <div class="col-md-5 mb-3">
-                <div class="p-3 border rounded-pill">
-                  <i class="fas fa-envelope me-2 text-info"></i>
-                  <strong>openlabgeorgia@gmail.com</strong>
-                </div>
-              </div>
-            </div>
-
-            <div class="social-links-large text-center mt-4">
-              <a
-                href="#"
-                target="_blank"
-                class="mx-3"
-                ><i class="fab fa-facebook fa-2x"></i
-              ></a>
-              <a
-                href="#"
-                target="_blank"
-                class="mx-3"
-                ><i class="fab fa-instagram fa-2x"></i
-              ></a>
             </div>
           </div>
+
+          <div class="contact-form-container">
+            <form class="actual-form">
+              <div class="form-group">
+                <input type="text" placeholder="სახელი და გვარი" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="ელ-ფოსტა" required />
+              </div>
+              <div class="form-group">
+                <input type="tel" placeholder="ტელეფონის ნომერი" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="თქვენი შეტყობინება"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">გაგზავნა</button>
+            </form>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
+
     <footer class="main-footer">
       <div class="container footer-grid">
         <div class="footer-col">
@@ -136,9 +109,7 @@
           <p class="phone">(+995) 551 90 40 20</p>
           <p class="email">openlabgeorgia@gmail.com</p>
           <div class="social-icons">
-            <a
-              href="#"
-              target="_blank"
+            <a href="#" target="_blank"
               ><i class="fa-brands fa-facebook"></i
             ></a>
             <a href="#" target="_blank">
@@ -159,7 +130,7 @@
             <li><a href="../index.html">მთავარი</a></li>
             <li><a href="service.html">სერვისები</a></li>
             <li><a href="about.html">ჩვენს შესახებ</a></li>
-            <li><a href="registration.html">რეგისტრაცია</a></li>
+            <li><a href="#l">კონტაქტი</a></li>
           </ul>
         </div>
       </div>
